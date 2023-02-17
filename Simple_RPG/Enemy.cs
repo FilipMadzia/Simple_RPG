@@ -1,13 +1,13 @@
 ﻿namespace Simple_RPG {
     public class Enemy {
         private string name = "Enemy";
-        private float strength;
-        private float health;
+        private float strengthPoints;
+        private float healthPoints;
 
-        public Enemy(string _name, float _strength, float _health) {
+        public Enemy(string _name, float strength, float health) {
             Name = _name;
-            Strength = _strength;
-            Health = _health;
+            StrengthPoints = strength;
+            HealthPoints = health;
         }
 
         public string Name {
@@ -18,37 +18,37 @@
                 name = value;
             }
         }
-        public float Strength {
+        public float StrengthPoints {
             get {
-                return strength;
+                return strengthPoints;
             }
             set {
                 if(value > 0 && value <= 10) {
-                    strength = value;
+                    strengthPoints = value;
                 }
             }
         }
-        public float Health {
+        public float HealthPoints {
             get {
-                return health;
+                return healthPoints;
             }
             set {
                 if(value > 0 && value <= 100) {
-                    health = value;
+                    healthPoints = value;
                 }
             }
         }
 
         public void ReceiveDamage(float _damage) {
-            if(health - _damage > 0) {
-                health -= _damage;
+            if(healthPoints - _damage > 0) {
+                healthPoints -= _damage;
             }
             else {
                 Die();    
             }
         }
         private void Die() {
-            health = 0;
+            healthPoints = 0;
             Console.WriteLine(name + " was killed.");
         }
     }

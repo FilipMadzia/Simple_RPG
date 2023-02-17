@@ -1,17 +1,19 @@
 ﻿namespace Simple_RPG {
     class Game {
         static void Main(string[] args) {
-            Enemy enemy = new Enemy("Dragon", 10, 100);
-            Enemy enemy2 = new Enemy("Goblin", 2, 15);
+            Player player = new Player(Player.PlayerClass.Knight, "Max the Warrior");
+            Enemy enemy = new Enemy("Giant Dragon", 10, 100);
 
-            Console.WriteLine(enemy.Health);
+            Console.WriteLine(player.Name + " gets attacked by a(n) " + enemy.Name + "!");
 
-            enemy.ReceiveDamage(15);
+            while (player.IsAlive) {
+                Console.WriteLine(player.Name + " has " + player.HealthPoints + " HP");
+                Console.WriteLine(enemy.Name + " has " + enemy.HealthPoints+ " HP");
 
-            Console.WriteLine(enemy.Health);
+                player.Fight(enemy);
 
-            enemy.ReceiveDamage(90);
-
+                Console.ReadKey();
+            }
         }
     }
 }
