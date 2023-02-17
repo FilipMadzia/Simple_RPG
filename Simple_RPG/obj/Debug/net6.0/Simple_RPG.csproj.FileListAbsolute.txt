@@ -1,0 +1,15 @@
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\bin\Debug\net6.0\Simple_RPG.exe
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\bin\Debug\net6.0\Simple_RPG.deps.json
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\bin\Debug\net6.0\Simple_RPG.runtimeconfig.json
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\bin\Debug\net6.0\Simple_RPG.dll
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\bin\Debug\net6.0\Simple_RPG.pdb
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\Simple_RPG.csproj.AssemblyReference.cache
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\Simple_RPG.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\Simple_RPG.AssemblyInfoInputs.cache
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\Simple_RPG.AssemblyInfo.cs
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\Simple_RPG.csproj.CoreCompileInputs.cache
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\Simple_RPG.dll
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\refint\Simple_RPG.dll
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\Simple_RPG.pdb
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\Simple_RPG.genruntimeconfig.cache
+D:\Programowanie\C#\Simple_RPG\Simple_RPG\obj\Debug\net6.0\ref\Simple_RPG.dll
