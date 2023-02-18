@@ -1,19 +1,22 @@
 ﻿namespace Simple_RPG {
     class Game {
         static void Main(string[] args) {
-            Player player = new Player(Player.PlayerClass.Knight, "Max the Warrior");
+            // player customization
+            Console.WriteLine("Customize your character");
+            Console.WriteLine("Choose player class: ");
+            int classI = 1;
+            foreach(var Class in Enum.GetNames<Player.PlayerClass>()) {
+                Console.WriteLine(classI + ". " + Class);
+                classI++;
+            }
+
+
             Enemy enemy = new Enemy("Giant Dragon", 10, 100);
 
-            Console.WriteLine(player.Name + " gets attacked by a(n) " + enemy.Name + "!");
-
-            while (player.IsAlive) {
-                Console.WriteLine(player.Name + " has " + player.HealthPoints + " HP");
-                Console.WriteLine(enemy.Name + " has " + enemy.HealthPoints+ " HP");
-
-                player.Fight(enemy);
-
-                Console.ReadKey();
-            }
+            //while (player.IsAlive) {
+              //  player.Stats();
+                //player.Fight(enemy);
+            //}
         }
     }
 }
